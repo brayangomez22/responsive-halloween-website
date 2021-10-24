@@ -701,4 +701,23 @@ button {
 .category__title {
   margin-bottom: var(--mb-0-25);
 }
+
+/*=============== ABOUT ===============*/
+.about__container {
+  row-gap: 2rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  margin-bottom: var(--mb-2);
+}
+
+.about__img {
+  width: 200px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
 /*# sourceMappingURL=styles.css.map */
