@@ -674,4 +674,31 @@ button {
     left: -3%;
   }
 }
+
+/*=============== CATEGORY ===============*/
+.category__container {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+}
+
+.category__data {
+  text-align: center;
+}
+
+.category__data:hover .category__img {
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
+}
+
+.category__img {
+  width: 120px;
+  margin-bottom: var(--mb-0-75);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.category__title {
+  margin-bottom: var(--mb-0-25);
+}
 /*# sourceMappingURL=styles.css.map */
