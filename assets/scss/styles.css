@@ -783,4 +783,118 @@ button {
   font-size: 1.25rem;
   color: var(--title-color);
 }
+
+/*=============== DISCOUNT ===============*/
+.discount__container {
+  background: var(--container-color);
+  border-radius: 1rem;
+  padding: 2.5rem 0 1.5rem;
+  row-gap: 0.75rem;
+}
+
+.discount__data {
+  text-align: center;
+}
+
+.discount__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-2);
+}
+
+.discount__img {
+  width: 200px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+/*=============== NEW ARRIVALS ===============*/
+.new__container {
+  padding-top: 1rem;
+}
+
+.new__img {
+  width: 120px;
+  margin-bottom: var(--mb-0-5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.new__content {
+  position: relative;
+  background: var(--container-color);
+  width: 242px;
+  padding: 2rem 0 1.5rem 0;
+  border-radius: 0.75rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.new__content:hover .new__img {
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
+}
+
+.new__content:hover .new__button {
+  right: 0;
+}
+
+.new__tag {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  background-color: var(--first-color);
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.new__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.new__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.new__prices {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+
+.new__price {
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+}
+
+.new__discount {
+  color: var(--first-color);
+  font-size: var(--smaller-font-size);
+  text-decoration: line-through;
+  font-weight: var(--font-medium);
+}
+
+.new__button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 0.25rem 0.25rem 0.75rem 0.25rem;
+  position: absolute;
+  bottom: 0;
+  right: -3rem;
+}
+
+.new__icon {
+  font-size: 1.25rem;
+}
 /*# sourceMappingURL=styles.css.map */
